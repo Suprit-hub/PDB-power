@@ -1,0 +1,72 @@
+html{
+    
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+.form{
+    scroll-behavior: none;
+    overflow-y: none;
+    
+}
+.contact h3{
+    font-weight: bolder;
+    text-align: center;
+}
+.add{
+    justify-content: center;
+    text-align: center;
+   
+}
+
+footer{
+    font-weight: bold;
+    font-size: smaller;
+    color: rgba(116, 111, 111, 0.884);
+    text-align: center;
+    padding-top: 9%;
+}
+footer div{
+    padding-top: 100px;
+    padding-bottom: 2px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+h4 a{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.contact h2{
+    text-align: center;
+}
+.mail_icon{
+    background-color: rgba(116, 116, 116, 0.6);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 6.5px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 2%;
+    right: 10px;
+    
+}
+.mail_icon:hover{
+   background-color: whitesmoke;
+   width: 130px;
+   transition: 0.5s;
+   
+}
+.mail_icon span{
+    padding-left: 2%;
+    color: rgb(22, 22, 22);
+}
